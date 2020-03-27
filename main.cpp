@@ -8,6 +8,7 @@
  * */
 
 // Método main para probar el patrón de diseño
+
 int main() {
 
     SubService Artist;      // La persona que crea contenido
