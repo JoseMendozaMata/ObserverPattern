@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jose/CLionProjects/ObserverPattern/App/SubService.h
+string
+-
+../DataStructures/SubsLinkedList.h
+/home/jose/CLionProjects/ObserverPattern/DataStructures/SubsLinkedList.h
+
+/home/jose/CLionProjects/ObserverPattern/Client/ClientNode.h
+string
+-
+iostream
+-
+
+/home/jose/CLionProjects/ObserverPattern/DataStructures/SubsLinkedList.h
+stdio.h
+-
+iostream
+-
+../Client/ClientNode.h
+/home/jose/CLionProjects/ObserverPattern/Client/ClientNode.h
+
+/home/jose/CLionProjects/ObserverPattern/main.cpp
+iostream
+-
+DataStructures/SubsLinkedList.h
+/home/jose/CLionProjects/ObserverPattern/DataStructures/SubsLinkedList.h
+App/SubService.h
+/home/jose/CLionProjects/ObserverPattern/App/SubService.h
+

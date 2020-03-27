@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ObserverPattern.dir/main.cpp.o CMakeFiles/ObserverPattern.dir/App/SubService.cpp.o CMakeFiles/ObserverPattern.dir/DataStructures/SubsLinkedList.cpp.o CMakeFiles/ObserverPattern.dir/Client/ClientNode.cpp.o  -o ObserverPattern 
