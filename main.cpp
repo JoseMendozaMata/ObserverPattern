@@ -6,7 +6,7 @@
  * Ejemplo de patrón de diseño obsrever, se simula un servicio de subscripción que notifica cuando un artista sube nuevo
  * contenido a la página web
  * */
-
+//
 int main() {
 
     SubService Artist;      // La persona que crea contenido
