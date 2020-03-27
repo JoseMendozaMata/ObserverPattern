@@ -20,7 +20,7 @@ int main() {
 
     Artist.setState("https:foo.com/content/Artist/wewewewewe1234123132");
 
-    Artist.addSubscriber("Maureen");
+    Artist.addSubscriber("Maureen");    // Añade nuevos subscriptores
     Artist.addSubscriber("Ramón");
 
     Artist.setState("https:foo.com/content/Artist/uwuwuwuwuwu1234123132");
