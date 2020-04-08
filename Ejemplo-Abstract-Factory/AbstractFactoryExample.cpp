@@ -66,15 +66,26 @@ class FabricaFigurasRobustas : public Factory {
 };
 
 int main() {
-  Factory* factorySimple = new FabricaFigurasSimples;
-  Factory* factoryRobust = new FabricaFigurasRobustas;
-  Figura* figuras[3];
 
-  figuras[0] = factoryRobust->crearInstanciaCurva();   // figuras[0] = new Elipse;
-  figuras[1] = factorySimple->crearInstanciaRecta(); // figuras[1] = new Rectangulo;
-  figuras[2] = factoryRobust->crearInstanciaCurva();   // figuras[2] = new Elipse;
+  Factory* factory = new FabricaFigurasRobustas;
+  
+  Figura* figuras[4];
 
-  for (int i=0; i < 3; i++) {
+  figuras[0] = factory->crearInstanciaCurva();   // figuras[0] = new Elipse;
+
+  factory = new FabricaFigurasSimples;
+
+  figuras[1] = factory->crearInstanciaRecta(); // figuras[1] = new Cuadrado;
+
+  factory = new FabricaFigurasSimples;
+
+  figuras[2] = factory->crearInstanciaCurva();   // figuras[2] = new Circulo;
+
+  factory = new FabricaFigurasRobustas;
+
+  figuras[3] = factory->crearInstanciaRecta();   // figuras[2] = new Rectangulo;
+
+  for (int i=0; i < 4; i++) {
     figuras[i]->dibuja();
   }
 }
